@@ -20,7 +20,7 @@ const FeatureSection = () => {
             >
               <div className="flex flex-col items-center justify-center w-[44%] mt-[19px] sm:mt-[38px]">
                 <img 
-                  src="/public/Container.png" 
+                  src="/Container.png" 
                   alt="Fashion dresses icon"
                   className="w-[23px] sm:w-[46px] h-[23px] sm:h-[46px] cursor-pointer"
                 />
@@ -33,7 +33,7 @@ const FeatureSection = () => {
               <div className="relative w-full flex items-end justify-center">
                
                 <img 
-                  src="/public/Container.png" 
+                  src="/Container.png" 
                   alt="Fashion collection preview"
                   className="w-[310px] sm:w-[620px] h-[196px] sm:h-[392px] cursor-pointer"
                 />
@@ -55,7 +55,7 @@ const FeatureSection = () => {
             >
               <div className="flex flex-col items-center justify-start w-[46%] mt-[19px] sm:mt-[38px]">
                 <img 
-                  src="/public/test.png" 
+                  src="/test.png" 
                   alt="School uniforms icon"
                   className="w-[23px] sm:w-[46px] h-[23px] sm:h-[46px] cursor-pointer"
                 />
@@ -71,7 +71,7 @@ const FeatureSection = () => {
               {/* Mobile Screenshots Stack */}
               <div className="relative w-full flex items-center justify-center px-[58px] sm:px-[116px]">
                 <img 
-                  src="/public/test.png" 
+                  src="/test.png" 
                   alt="School uniform preview"
                   className="w-[178px] sm:w-[356px] h-[256px] sm:h-[512px] relative z-10 cursor-pointer"
                 />
