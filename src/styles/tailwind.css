@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gradient-bg {
+    background: linear-gradient(135deg, 
+      #7dd3fc 0%,     /* Light blue start */
+      #a78bfa 25%,    /* Light purple */
+      #c084fc 50%,    /* Medium purple */
+      #fdba74 75%,    /* Light orange */
+      #fde047 100%    /* Light yellow end */
+    );
+  }
+}
+
+@layer base {
+  :root {
+    /* Global Background Colors */
+    --global-bg-1: #f2f1f0;
+    --global-bg-2: #f4f5f5;
+    --global-bg-3: #fed31a;
+    --global-bg-4: #ffffff;
+
+    /* Global Text Colors */
+    --global-text-1: #000000;
+
+    /* Typography Variables */
+    --font-size-xs: 12px;
+    --font-size-sm: 13px;
+    --font-size-base: 15px;
+    --font-size-lg: 23px;
+    --font-size-xl: 25px;
+    --font-size-2xl: 38px;
+    --font-size-3xl: 66px;
+
+    /* Font Weight Variables */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+
+    /* Line Height Variables */
+    --line-height-xs: 17px;
+    --line-height-sm: 18px;
+    --line-height-base: 20px;
+    --line-height-lg: 29px;
+    --line-height-xl: 37px;
+    --line-height-2xl: 51px;
+    --line-height-3xl: 69px;
+
+    /* Spacing Variables - Margin */
+    --margin-xs: 14px;
+    --margin-sm: 16px;
+    --margin-md: 18px;
+    --margin-lg: 30px;
+    --margin-xl: 32px;
+    --margin-2xl: 38px;
+    --margin-3xl: 116px;
+    --margin-4xl: 240px;
+    --margin-5xl: 322px;
+
+    /* Spacing Variables - Padding */
+    --padding-xs: 6px;
+    --padding-sm: 8px;
+    --padding-base: 12px;
+    --padding-md: 14px;
+    --padding-lg: 22px;
+    --padding-xl: 46px;
+    --padding-2xl: 54px;
+    --padding-3xl: 56px;
+    --padding-4xl: 90px;
+    --padding-5xl: 116px;
+    --padding-6xl: 128px;
+    --padding-7xl: 250px;
+
+    /* Spacing Variables - Gap */
+    --gap-xs: 6px;
+    --gap-sm: 14px;
+    --gap-md: 18px;
+    --gap-lg: 30px;
+    --gap-xl: 60px;
+
+    /* Border Radius Variables */
+    --radius-none: 0px;
+    --radius-sm: 12px;
+    --radius-base: 16px;
+    --radius-lg: 40px;
+
+    /* Component-specific Variables - Button */
+    --button-bg: #fed31a;
+    --button-text: #000000;
+    --button-font-size: 13px;
+    --button-font-weight: 500;
+    --button-line-height: 17px;
+    --button-padding-x: 22px;
+    --button-padding-y: 14px;
+    --button-radius: 12px;
+  }
+}
